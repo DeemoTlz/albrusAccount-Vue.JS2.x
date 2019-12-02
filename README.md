@@ -2,7 +2,7 @@
 > 阿尔布鲁斯 ~ 唐丽猪
 
 ## 集成框架
-**Vue.JS2.x + ElementUI**
+**@vue\cli4.1 + ElementUI**
 
 ## Project setup
 ```
