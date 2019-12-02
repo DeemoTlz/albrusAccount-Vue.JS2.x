@@ -1,0 +1,18 @@
+# 最顶级的配置,相当于根 editorconfig 直到查找到root=true 才会停止查找不然会一直向上查找
+root = true
+
+# 通配符 表示匹配/之外任意字符串
+[*.{js,jsx,ts,tsx,vue}]
+#编码格式
+charset = utf-8
+# tab 表示hard-tab 硬件tab 是一个tab键 / space表示soft-tab 软件tab 是四个空格space
+indent_style = space
+# index_style设置了space 就由index_size来定义每级缩进列数 如果设置tab 则需要tab_width 属性来设置
+indent_size = 2
+#定义换行符，支持lf、cr和crlf。
+end_of_line = lf
+#设为true表明使文件以一个空白行结尾，false反之
+insert_final_newline = true
+#设为true表示会除去换行行首的任意空白字符，false反之。
+trim_trailing_whitespace = true
+max_line_length = 200
