@@ -11,6 +11,7 @@
         <h1>{{ msg }}</h1>
         <el-row>
           <el-button type="primary" size="small" @click="toLogin">登录</el-button>
+          <el-button type="primary" size="small" @click="logout">注销</el-button>
         </el-row>
       </div>
     </el-main>
@@ -42,6 +43,9 @@ export default {
     toLogin() {
       // this.$http.get('/login')
       ajaxGet('/login');
+    },
+    logout() {
+      window.location.href = 'logout';
     },
   },
 };
